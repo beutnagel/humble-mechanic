@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/jquery.timepicker.min.css">
     <link href="css/datepicker.min.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/booking-styles.css">
   </head>
   <body>
     <form action="" class="bookingForm">

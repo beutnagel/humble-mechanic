@@ -1,68 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-.active, .accordion:hover {
-    background-color: #ccc; 
-}
-
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-}
-</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h2>Accordion</h2>
+  <h2>Accordion</h2>
 
-<button class="accordion">Tip 1: How to change a tire.</button>
-<div class="panel">
-  <p>Changing tires is easier, when it's not raining..</p>
-</div>
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
 
-<button class="accordion">Tip 2: how to fill the gas tank.</button>
-<div class="panel">
-  <p>Don't smoke, when filling the gass tank.</p>
-</div>
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="accordion">Tip 1: How to change a tire.</button>
+  <div class="panel">
+    <p>Changing tires is easier, when it's not raining..</p>
+  </div>
 
-<button class="accordion">Tip 3: how to be a masculine driver.</button>
-<div class="panel">
-  <p>Keep the umbrella for the lady, when she's changing the tire.</p>
-</div>
+  <button class="accordion">Tip 2: how to fill the gas tank.</button>
+  <div class="panel">
+    <p>Don't smoke, when filling the gass tank.</p>
+  </div>
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+  <button class="accordion">Tip 3: how to be a masculine driver.</button>
+  <div class="panel">
+    <p>Keep the umbrella for the lady, when she's changing the tire.</p>
+  </div>
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>

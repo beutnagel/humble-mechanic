@@ -1,3 +1,26 @@
-body {
-  background-color: red;
+$primary-color: #5072f0;
+$contrast-color: #fa8435;
+
+.accordion {
+  color: $primary-color;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion:hover,
+.active {
+  background-color: $contrast-color;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
 }

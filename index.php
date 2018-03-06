@@ -18,9 +18,9 @@ $filenameQuestions = "faq.txt";
 
   <div class="accordion">
     <div class="accordion-item">
-      <a>  <?php echo($file->read($filenameQuestions));?></a>
+      <a><?php echo($file->read($filenameQuestions));?></a>
       <div class="content">
-        <p></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
       </div>
     </div>
     <div class="accordion-item">

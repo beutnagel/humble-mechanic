@@ -1,4 +1,10 @@
-// Color Variables
-$color-primary: #fa8435;
-$color-secondary: #fff;
-$color-dark: #333;
+// Variables
+$primary-color: #5072f0;
+$contrast-color: #fa8435;
+$dark: #333;
+$font-main: arial, helvetica, sans-serif;
+
+html, body {
+font-family: $font-main;
+height: 100%;
+}

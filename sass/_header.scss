@@ -1,8 +1,34 @@
+header {
+    height: 100vh;
+    background: url(/images/bg.jpeg);
+    background-position: cover;
+    background-position: center;
+}
+
 nav {
     display: flex;
-    
-    ul li {
-        list-style-type: none;
-        
+    justify-content: center;
+
+    ul {
+        display: flex;
+        list-style-type: none;  
     }
+
+   ul li a {
+    color: $dark;
+    font-size: 1.5rem;
+    text-decoration: none;  
+    padding: 0 1rem;
+
+    }
+
 }
+
+nav ul li a:hover {
+        color: $primary-color;
+    }
+
+.logo {
+    width: 200px;
+}
+

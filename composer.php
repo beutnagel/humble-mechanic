@@ -1,4 +1,3 @@
 {
-    "require": {
-    }
+ "name": "The Humble Mechanic"
 }

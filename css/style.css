@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -90,7 +90,7 @@ h3 {
 
 .accordion a.active::after {
   font-family: 'Ionicons';
-  content: '\f2c7';
+  content: '\f462';
   color: #03b5d2;
   border: 1px solid #03b5d2;
 }

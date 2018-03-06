@@ -13,7 +13,7 @@
     <nav class="nav">
   <ul>
     <li><a href="#">Booking</a></li>
-    <li><a href="pricelist/pricelist.php">Pricelist</a></li>
+    <li><a href="Pricelist/pricelist.html">Pricelist</a></li>
     <li><a href="faq.php">Tips</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Contact</a></li>

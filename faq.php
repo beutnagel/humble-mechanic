@@ -9,7 +9,7 @@ $filenameQuestions = "faq.txt";
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/faq-style.css">
 </head>
 <body>
 <div class="container">

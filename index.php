@@ -2,12 +2,7 @@
 // Load in the file system class
 include 'filesystem.class.php';
 $file = new FileSystem;
-
-<<<<<<< HEAD
-$filename = "faq.txt";
-=======
 $filenameQuestions = "faq.txt";
->>>>>>> ec934c5e24b97ac3c5329894355e2020fe771ebb
 ?>
 
 <!DOCTYPE html>
@@ -23,15 +18,9 @@ $filenameQuestions = "faq.txt";
 
   <div class="accordion">
     <div class="accordion-item">
-<<<<<<< HEAD
-      <a>  <?php echo($file->read($filename));?></a>
-      <div class="content">
-        <p>  <?php echo($file->read($filename));?></p>
-=======
       <a>  <?php echo($file->read($filenameQuestions));?></a>
       <div class="content">
         <p></p>
->>>>>>> ec934c5e24b97ac3c5329894355e2020fe771ebb
       </div>
     </div>
     <div class="accordion-item">

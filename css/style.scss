@@ -1,9 +1,9 @@
 
 // Color Variables
-$color-primary: #5072f0;
+$primary-color: #5072f0;
 $color-secondary: #fff;
-$color-dark: #333;
-$font: Arial, Helvetica, sans-serif;
+$dark: #333;
+$font-main: Arial, Helvetica, sans-serif;
 
 @import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
@@ -20,9 +20,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: $font;
+  font-family: $font-main;
   background: $color-secondary;
-  color: #4d5974;
+  color: $dark;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -65,16 +65,16 @@ h3 {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: $color-primary;
+  color: $primary-color;
 }
 
 .accordion a:hover::after {
-  border: 1px solid $color-primary;
+  border: 1px solid $primary-color;
 }
 
 .accordion a.active {
-  color: $color-primary;
-  border-bottom: 1px solid $color-primary;
+  color: $primary-color;
+  border-bottom: 1px solid $primary-color;
 }
 
 .accordion a::after {
@@ -98,8 +98,8 @@ h3 {
 .accordion a.active::after {
   font-family: 'Ionicons';
   content: '\f462';
-  color: $color-primary;
-  border: 1px solid $color-primary;
+  color: $primary-color;
+  border: 1px solid $primary-color;
 }
 
 .accordion .content {

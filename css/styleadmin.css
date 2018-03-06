@@ -215,13 +215,11 @@ form input[type="submit"] {
   border-radius: 0.5em; }
 
 form input[type="submit"]:hover {
-  background: khaki;
+  background: #fa8435;
   border: none;
-  border-bottom: solid 4px #eadc5f;
   padding: 0.7em 3em;
   margin: 1em 0;
   color: white;
-  text-shadow: 0 -1px 0 #eadc5f;
   font-size: 1.1em;
   font-weight: bold;
   display: inline-block;

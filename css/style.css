@@ -2,7 +2,8 @@ body,
 html {
   font-family: arial, helvetica, sans-serif;
   height: 100%;
-  text-align: center; }
+  text-align: center;
+  color: #333; }
 
 .container {
   max-width: 70%;

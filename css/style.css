@@ -51,14 +51,14 @@ h3 {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #0a38de; }
+  color: #5072f0; }
 
 .accordion a:hover::after {
-  border: 1px solid #0a38de; }
+  border: 1px solid #5072f0; }
 
 .accordion a.active {
-  color: #0a38de;
-  border-bottom: 1px solid #0a38de; }
+  color: #5072f0;
+  border-bottom: 1px solid #5072f0; }
 
 .accordion a::after {
   font-family: 'Ionicons';
@@ -80,8 +80,8 @@ h3 {
 .accordion a.active::after {
   font-family: 'Ionicons';
   content: '\f462';
-  color: #0a38de;
-  border: 1px solid #0a38de; }
+  color: #5072f0;
+  border: 1px solid #5072f0; }
 
 .accordion .content {
   opacity: 0;

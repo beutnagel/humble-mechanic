@@ -1,0 +1,38 @@
+/* Scss Document */
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.container {
+  background-color: #fff;
+  width: 960px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 55px;
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.71); }
+  .container__title {
+    font-size: 1em;
+    color: #5072f0;
+    font-family: Arial, Helvetica, sans-serif; }
+  .container__img {
+    float: right;
+    margin-left: 20px; }
+  .container__p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif; }
+  .container__ul {
+    margin-left: -30px; }
+  .container__li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif; }

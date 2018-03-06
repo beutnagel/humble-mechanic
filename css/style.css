@@ -9,7 +9,10 @@ html {
   margin: auto; }
 
 .heading {
-  text-align: center; }
+  color: #333;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 10s; }
 
 .accordion {
   cursor: pointer;

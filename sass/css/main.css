@@ -13,7 +13,8 @@ header {
   height: 100vh;
   background: url(/images/bg.jpeg);
   background-position: cover;
-  background-position: center; }
+  background-position: center;
+  padding: 5rem; }
 
 nav {
   display: -webkit-box;
@@ -37,4 +38,8 @@ nav ul li a:hover {
   color: #5072f0; }
 
 .logo {
-  width: 200px; }
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 25;
+  left: 5; }

@@ -3,6 +3,7 @@ header {
     background: url(/images/bg.jpeg);
     background-position: cover;
     background-position: center;
+    padding: 5rem;
 }
 
 nav {
@@ -29,6 +30,10 @@ nav ul li a:hover {
     }
 
 .logo {
-    width: 200px;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 25;
+    left: 5;
 }
 

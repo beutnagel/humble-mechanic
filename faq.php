@@ -50,6 +50,6 @@ $filenameQuestions = "faq.txt";
   </div>
   
 </div>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/faq-scripts.js"></script>
 </body>
 </html>

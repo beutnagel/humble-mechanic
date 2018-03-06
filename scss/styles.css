@@ -36,3 +36,26 @@ body {
     margin-bottom: 10px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif; }
+
+.containerLogin {
+  width: 300px;
+  height: 100px;
+  background-color: #5072f0;
+  padding: 55px;
+  margin: auto;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.58); }
+  .containerLogin__form {
+    margin-top: 25px;
+    text-align: center; }
+  .containerLogin__input {
+    margin-bottom: 5px;
+    width: 90%; }
+  .containerLogin__button {
+    float: right;
+    margin-right: 13px;
+    margin-top: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

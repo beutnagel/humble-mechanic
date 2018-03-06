@@ -1,4 +1,54 @@
-// Color Variables
-$color-primary: #fa8435;
-$color-secondary: #fff;
-$color-dark: #333;
+$font-stack: 'Arial', sans-serif;
+$font-size: 1em;
+
+@mixin display-flex {
+  display: flex;
+}
+@mixin margin-auto {
+  margin: auto;
+}
+
+header {
+  @include display-flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body {
+  background-color: #5072f0;
+}
+
+.header-title {
+  @include margin-auto;
+  font: 100% $font-stack;
+  font-size: 30px;
+  color: white;
+}
+
+.main-contactForm {
+@include display-flex;
+flex-direction: column;
+}
+
+#main-contactForm-name, #main-contactForm-booking, #main-contactForm-comment, #main-contactForm-email, #main-contactForm-phone {
+  @include margin-auto;
+  font: 100% $font-stack;
+  width: 50%;
+  padding: 10px;
+  margin-top: 0px;
+}
+label {
+  font: 100% $font-stack;
+margin-left: 370px;
+margin-top: 10px;
+color: white;
+  }
+
+.main-button {
+  font: 100% $font-stack;
+  @include margin-auto;
+  width: 10%;
+  margin-top: 10px;
+}
+#nextButtonSection-paragraph {
+  display: none;
+}

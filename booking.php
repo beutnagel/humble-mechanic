@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <form action="" class="bookingForm" id="bookingForm">
+    <form action="" class="bookingForm">
       <input type="text" name="firstName" class="bookingForm__inputSmall" placeholder="First name">
       <input type="text" name="lastName" class="bookingForm__inputSmall" placeholder="Last name">
       <input type="tel" name="phone" class="bookingForm__inputSmall" placeholder="Phone number">
       <input type="text" name="email" class="bookingForm__inputSmall" placeholder="Email">
-      <article class="licensePlate">
+      <article class="licensePlate" id="licensePlateForm">
         <input id="licensePlate" type="text" name="licensePlate" class="licensePlate__input" placeholder="License plate">
         <button v-on:click.prevent="getLicensePlateInfo">GO!</button>
         <p class="licensePlate__text">Brand: {{ brand }}</p>
@@ -36,5 +36,6 @@
     <script src="javascript/jquery.timepicker.min.js"></script>
     <script src="javascript/datepicker.min.js"></script>
     <script src="javascript/scripts.js"></script>
+    <script src="javascript/vue-app.js"></script>
   </body>
 </html>

@@ -1,5 +1,24 @@
+// Variables
 $primary-color: #5072f0;
 $contrast-color: #fa8435;
+$dark: #333;
+$font-main: arial, helvetica, sans-serif;
+
+body,
+html {
+  font-family: $font-main;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  max-width: 70%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+}
 
 .accordion {
   color: $primary-color;
@@ -7,15 +26,15 @@ $contrast-color: #fa8435;
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
-}
 
-.accordion:hover,
-.active {
-  background-color: $contrast-color;
+  &.active,
+  &:hover {
+    background-color: $contrast-color;
+  }
 }
 
 .panel {

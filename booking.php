@@ -35,7 +35,7 @@
   crossorigin="anonymous"></script>
     <script src="javascript/jquery.timepicker.min.js"></script>
     <script src="javascript/datepicker.min.js"></script>
-    <script src="javascript/scripts.js"></script>
+    <script src="javascript/booking-scripts.js"></script>
     <script src="javascript/vue-app.js"></script>
   </body>
 </html>

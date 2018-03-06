@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="scss/styles.css">
+<link rel="stylesheet" href="css/about-styles.css">
     
 <title>About</title>
 </head>

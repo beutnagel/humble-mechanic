@@ -7,11 +7,9 @@ $file = new FileSystem;
 
 var_dump($_POST);
 
+$question = $_POST["question"];
 
-$article = $_POST["article"];
+var_dump($question);
 
-var_dump($article);
-
-
-$file->write("article.txt",$article);
+$file->write("faq.txt",$question);
  ?>

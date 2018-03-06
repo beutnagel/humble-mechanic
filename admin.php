@@ -6,7 +6,7 @@
 <body>
 
 	<form action="save_file.php" method="post">
-<input name="article" placeholder="write your text here">
+<input name="question" placeholder="write the question here">
 <button type="submit" id="send">send</button>
 
 	</form>

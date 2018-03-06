@@ -1,41 +1,76 @@
-header {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+* {
+  font-family: "Roboto", sans-serif; }
 
-body {
-  background-color: #5072f0; }
-
-.header-title {
+.bookingForm {
   margin: auto;
-  font: 100% "Arial", sans-serif;
-  font-size: 30px;
-  color: white; }
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  align-items: center; }
+  .bookingForm__inputSmall {
+    margin-bottom: 20px;
+    width: 80%;
+    display: block;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(10, 56, 222, 0.2);
+    transition: all 300ms; }
+    .bookingForm__inputSmall:hover {
+      border: 2px solid rgba(10, 56, 222, 0.4); }
+    .bookingForm__inputSmall:focus {
+      border: 2px solid rgba(10, 56, 222, 0.7);
+      outline: 0; }
+    .bookingForm__inputSmall:nth-child(2) {
+      justify-self: end; }
+    .bookingForm__inputSmall:nth-child(4) {
+      justify-self: end; }
+    .bookingForm__inputSmall:nth-child(7) {
+      justify-self: end; }
+  .bookingForm__checkbox {
+    grid-column: 1/-1; }
+  .bookingForm__submit {
+    grid-column: 1/-1;
+    font-size: 1em;
+    color: black;
+    padding: 10px 0;
+    background-color: #5072f0;
+    color: white;
+    transition: all 300ms;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    margin-top: 10px; }
+    .bookingForm__submit:hover {
+      cursor: pointer;
+      background-color: #4261d1; }
+  .bookingForm__date {
+    grid-column: 1/2; }
 
-.main-contactForm {
-  display: flex;
-  flex-direction: column; }
-
-#main-contactForm-name, #main-contactForm-booking, #main-contactForm-comment, #main-contactForm-email, #main-contactForm-phone {
-  margin: auto;
-  font: 100% "Arial", sans-serif;
-  width: 50%;
-  padding: 10px;
-  margin-top: 0px; }
-
-label {
-  font: 100% "Arial", sans-serif;
-  margin-left: 370px;
-  margin-top: 10px;
-  color: white; }
-
-.main-button {
-  font: 100% "Arial", sans-serif;
-  margin: auto;
-  width: 10%;
-  margin-top: 10px; }
-
-#nextButtonSection-paragraph {
-  display: none; }
+.licensePlate {
+  grid-column: 1/-1;
+  background-color: #fa8435;
+  border-radius: 5px;
+  padding: 20px 20px;
+  color: white;
+  margin-bottom: 20px; }
+  .licensePlate__text {
+    margin: 0;
+    margin-top: 5px; }
+  .licensePlate__input {
+    margin-bottom: 10px;
+    width: 25%;
+    display: block;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(10, 56, 222, 0.2);
+    transition: all 300ms; }
+    .licensePlate__input:hover {
+      border: 2px solid rgba(10, 56, 222, 0.4); }
+    .licensePlate__input:focus {
+      border: 2px solid rgba(10, 56, 222, 0.7);
+      outline: 0; }
 
 /*# sourceMappingURL=styles.css.map */

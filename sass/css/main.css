@@ -43,3 +43,28 @@ nav ul li a:hover {
   position: absolute;
   top: 25;
   left: 5; }
+
+.header-text {
+  text-align: center; }
+
+.header-title {
+  font-size: 3.5rem;
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  color: #5072f0; }
+
+.btn {
+  background: #fa8435;
+  border-color: #fa8435;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 35px 15px 35px;
+  text-decoration: none; }
+
+.btn:hover {
+  background: #333;
+  border-color: #333;
+  text-decoration: none; }
